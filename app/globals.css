@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Super Pixel';
+  src: url('/assets/fonts/super_pixel.ttf');
+}
+
+@font-face {
+  font-family: 'Pixel Craft';
+  src: url('/assets/fonts/pixel_craft.ttf');
+}
+
+.font-display {
+  font-family: 'Super Pixel', monospace;
+}
+
+.font-body {
+  font-family: 'Pixel Craft', monospace;
+}
+
+.game-background {
+  background: linear-gradient(rgba(41, 41, 41, 0.8), rgba(41, 41, 41, 0.8)),
+    url('/assets/background.png');
+  background-blend-mode: hard-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.game-frame {
+  border-width: 36px;
+  border-image-source: url('/assets/frame.svg');
+  border-image-repeat: stretch;
+  border-image-slice: 25%;
+}
+
+/* Add other styles from index-b30618ac.css as needed */ 
