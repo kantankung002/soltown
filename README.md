@@ -1,3 +1,7 @@
+Website: https://soltown.fun
+
+Blowfish Case ID: 5186
+
 # AI Town 🏘️
 
 AI Town is a modern web application built with Next.js, featuring AI-powered interactions in a virtual town setting.
